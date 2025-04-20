@@ -1,0 +1,85 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+    background-color: #ccc;
+}
+.body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+}
+.title{
+    font-size: 3rem;
+}
+.btn1,.btn2{
+    padding: 0.5rem;
+    height: 3.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    transition: all 0.2 ease-in-out;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.input-add-delete{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+.text{
+    padding: 0.5rem;
+    height: 3.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    font-size: 1.5rem;
+}
+button:hover{
+    color: #ffffff;
+    background-color: black;
+}
+.bookmarkContainer{
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    display: none;
+
+}
+.bookmarkContainer {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background-color: #ccc;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 2px solid black;
+    display: none;
+}
+/* Existing CSS styles */
+/* Button and text styles */
+.bookmarkContainer button{
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.bookmarkContainer input{
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+}
+
+button:hover {
+    color: #fff;
+    background-color: black;
+}
+
+/* Additional styling for input and container remains the same */

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Review Carousel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="carousel-container">
+    <h2>Our Reviews</h2>
+    <div class="underline"></div>
+    <div class="review-box">
+      <img id="photo" src="https://via.placeholder.com/100" alt="Reviewer">
+      <h3 id="name">John Doe</h3>
+      <p id="job">Software Engineer</p>
+      <p id="review">This is a sample review. It is concise and gives great insight!</p>
+    </div>
+    <div class="carousel-controls">
+      <button id="prev-btn" class="arrow-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 24 24">
+          <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6z"/>
+        </svg>
+      </button>
+      <button id="next-btn" class="arrow-btn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="black" viewBox="0 0 24 24">
+          <path d="M8.59 16.59L13.17 12l-4.58-4.59L10 6l6 6-6 6z"/>
+        </svg>
+      </button>
+    </div>
+    <button id="random-btn">Random</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

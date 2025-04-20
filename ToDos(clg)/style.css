@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* Box Styling */
+.box {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs {
+    display: flex;
+    justify-content: center; /* Center align items */
+    align-items: center; /* Vertically align items */
+}
+/* Input Styling */
+input, select {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+
+}
+
+input::placeholder {
+    color: #888;
+}
+
+/* Button Styling */
+button {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    width: max-content;
+    height: 36px;
+    margin-bottom: 6px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    transform: scale(1.05);
+}
+
+/* Table Styling */
+.ToDo-table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 0.5rem;
+}
+
+.ToDo-table th, .ToDo-table td {
+    border: 1px solid black;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.ToDo-table th {
+    background-color: #ccc;
+    color: black;
+}
+
+.filter{
+    align-self: flex-end;
+    margin-top: 0.5rem;
+}
+#filter-category{
+    margin-right: 0%;
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    input, select, button {
+        width: 100%;
+    }
+
+    .container {
+        gap: 0.5rem;
+    }
+}
+tbody button{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    height: 30px;
+    text-align: center;
+    margin-right: 0.5rem;
+}
+

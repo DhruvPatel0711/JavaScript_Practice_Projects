@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fae8eb12c3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">Unit Converter</div>
+            <div class="symbols">
+                <div class="Measurement"><i class="fa-solid fa-indian-rupee-sign"></i>Currency</div>
+                <div class="Measurement"><i class="fa-solid fa-ruler-horizontal"></i>Length</div>
+                <div class="Measurement"><i class="fa-solid fa-chart-area"></i>Area</div>
+                <div class="Measurement"><i class="fa-solid fa-cubes"></i>Volume</div>
+                <div class="Measurement"><i class="fa-solid fa-weight-hanging"></i>Weight</div>
+                <div class="Measurement"><i class="fa-solid fa-temperature-quarter"></i>Temperature</div>
+                <div class="Measurement"><i class="fa-solid fa-gauge"></i>Pressure</div>
+                <div class="Measurement"><i class="fa-solid fa-clock"></i>Time</div>
+                <div class="Measurement"><i class="fa-solid fa-bolt"></i>Power</div>
+                <div class="Measurement"><i class="fa-solid fa-gauge-high"></i>Speed</div>
+                <div class="Measurement"><i class="fa-solid fa-database"></i>Data</div>
+                <div class="Measurement"><i class="fa-solid fa-radio"></i>Frequency</div>
+                <div class="Measurement"><i class="fa-solid fa-flask"></i>Density</div>
+                <div class="Measurement"><i class="fa-brands fa-react"></i>Energy</div>
+                <div class="Measurement"><i class="fa-solid fa-compass"></i>Angle</div>
+                <div class="Measurement"><i class="fa-solid fa-lightbulb"></i>Light</div>
+                <div class="Measurement"><i class="fa-solid fa-volume-high"></i>Sound</div>
+                <div class="Measurement"><i class="fa-solid fa-gas-pump"></i>Fuel Efficiency</div>
+            </div>
+        </div>
+        <div class="Quantity">
+            <div class="selection">
+                <div class="input-input">
+                    <div class="dropdown from-unit">
+                        From : 
+                        <button type="button" class="dropdown-button">
+                            Select <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                        </button>
+                        <div class="dropdown-content"></div>
+                    </div>
+                    <input type="number" name="input-number" id="inputed-number" class="input-number" placeholder="Input">
+                </div>
+                
+                <div class="input-output">
+                    <div class="dropdown to-unit">
+                        To :
+                        <button type="button" class="dropdown-button">
+                            Select <i class="fa-solid fa-chevron-down" id="chevron"></i>
+                        </button>
+                        <div class="dropdown-content"></div>
+                    </div>
+                    <input type="number" name="output-number" id="outputed-number" class="output-number" placeholder="Output" readonly>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="btn1">Reset</button>
+            </div>
+        </div>
+    </div>
+    
+    <script type="module" src="script.js"></script>
+</body>
+</html>

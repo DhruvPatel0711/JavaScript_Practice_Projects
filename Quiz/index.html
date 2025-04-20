@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Code Quiz</title>
+</head>
+
+<body>
+    <!-- Top Bar -->
+    <div class="header">
+        <span id="timeScore">Time: </span>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="starting">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time. <br>
+                Keep in mind that incorrect answers will penalize your score/time by ten seconds!</p>
+            <button class="start">Start Quiz</button>
+        </div>
+        <div class="questions">
+            <p class="questionWords">Question Words</p>
+            <div class="options">
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+                <button class="option"></button>
+            </div>
+        </div>
+        <div class="end">
+            <h1>All Done!</h1>
+            <p>Your Time:<span class="finalScore"></span></p>
+            <p>Your Score:<span class="Score"></span></p>
+            <p>
+                Please enter your name:
+                <input type="text" id="name" max="3" placeholder="Enter name">
+                <button id="submit-score">Submit</button>
+            </p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,121 @@
+/* Universal Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    background-color: #ccc;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+/* Box Styling */
+.box {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Function Styling */
+.function {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Title Styling */
+.title {
+    color: black;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+p{
+    font-size: 2rem;
+}
+
+/* Input Styling */
+input {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 500px;
+}
+
+input::placeholder {
+    color: black;
+}
+
+/* Input Wrapper Styling */
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Button Styling */
+button {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Generate Button Specific Styling */
+.generate {
+    margin-bottom: 0.5rem;
+}
+
+/* Output Styling */
+.output,
+.outputSecond {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    height: 34.4px;
+    text-align: left;
+    width: 500px;
+}
+
+/* Text and Count Styling */
+.output,
+p,
+.count {
+    margin-bottom: 0.5rem;
+}
+
+/* Line Divider Styling */
+.line {
+    height: 1px;
+    background-color: black;
+    margin: 0.5rem 0;
+}

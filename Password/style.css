@@ -1,0 +1,60 @@
+/* Universal Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    background-color: #ccc;
+}
+
+/* Container Styling */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+.box{
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+input {
+    background-color: #ccc;
+    color: black;
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 500px;
+}
+.title{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+p{
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+}
+.tpass,.tstr{
+    font-size: 2rem;
+}
+.requirement{
+    display: block;
+}
+.progressbar {
+    height: 10px;
+    background-color: #ccc;
+    border-radius: 0.5rem;
+    transition: width 0.3s ease-in-out;
+}

@@ -1,0 +1,159 @@
+/* General body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Roboto Slab", serif;
+    background-color: #181818; /* Dark background for contrast */
+    color: #E0E0E0; /* Primary text color */
+}
+
+/* Calculator container */
+#calculator {
+    background-color: #1E1E1E; /* Slightly lighter than body for contrast */
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px; /* Restrict max width */
+}
+/* Display section */
+.display {
+    background-color: #292929; /* Subtle surface color */
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 2.5rem;
+    color: #E0E0E0;
+    text-align: right;
+    margin-bottom: 20px;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 0.3);
+    overflow-x: auto; /* Allow horizontal scrolling */
+}
+
+/* Hide scrollbars but still allow overflow */
+.display::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+
+/* Span inside the display will allow overflow to the left */
+.display span {
+    display: inline-block;
+    white-space: nowrap; /* Prevent text from wrapping */
+    right: 0; /* Initially align to the right */
+}
+
+/* Buttons container */
+.one {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Numeric and operator buttons */
+.buttons{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+/* Buttons styling */
+button {
+    background-color: #3A3A3C;
+    color: #E0E0E0;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #E53D00; /* Hover effect */
+    color: #FFFFFF;
+    transform: scale(1.05);
+}
+
+/* Special buttons styling */
+.features {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.resetbutton,
+.clearbutton,
+.expand {
+    flex-grow: 1;
+    margin: 0 5px;
+    height: 60px;
+    font-size: 1.2rem;
+    background-color: #505050;
+    color: #FFFFFF;
+}
+
+.resetbutton:hover,
+.clearbutton:hover,
+.expand:hover {
+    background-color: #E53D00;
+}
+
+/* Initially hide scientific buttons */
+.scientific {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+#id {
+    display: none; /* Hide by default */
+}
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    #calculator {
+        padding: 15px;
+    }
+    button {
+        height: 60px;
+        font-size: 1.2rem;
+    }
+    .display {
+        font-size: 2rem;
+    }
+}
+
+/* Light theme styling */
+body.light-theme {
+    background-color: #f1f1f1; /* Light background for contrast */
+    color: #333333; /* Dark text color */
+}
+
+#calculator.light-theme {
+    background-color: #ffffff; /* Lighter calculator background */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+}
+
+.display.light-theme {
+    background-color: #f5f5f5; /* Lighter display background */
+    color: #333333; /* Dark text */
+}
+
+button.light-theme {
+    background-color: #e0e0e0; /* Lighter button background */
+    color: #333333; /* Dark text */
+}
+
+button.light-theme:hover {
+    background-color: #f4b400; /* Hover effect for light theme */
+    color: #fff;
+}
+
+/* Optional: Adjust icons or other specific elements in light mode */
+button.light-theme i {
+    color: #333333;
+}

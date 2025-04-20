@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+    background-color: #ccc;
+}
+.body{
+    height: 100vh;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.counter{
+    font-size: 4rem;
+    color: black;
+}
+.display{
+    font-size: 3rem;
+    color: black;
+}
+button{
+    padding: 0.5rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    transition: all 0.2 ease-in-out;
+    font-size: 1rem;
+
+}
+.button{
+    gap: 1rem;
+}
+button:hover{
+    color: white;
+    background-color: black;
+}

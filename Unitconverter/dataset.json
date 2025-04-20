@@ -1,0 +1,166 @@
+{
+    "0": [
+        {"currency": "Indian Rupee (INR)"},
+        {"currency": "US Dollar (USD)"},
+        {"currency": "Euro (EUR)"},
+        {"currency": "British Pound (GBP)"},
+        {"currency": "Japanese Yen (JPY)"},
+        {"currency": "Australian Dollar (AUD)"},
+        {"currency": "Canadian Dollar (CAD)"},
+        {"currency": "Swiss Franc (CHF)"},
+        {"currency": "Chinese Yuan (CNY)"}
+    ],
+    "1": [
+        {"length": "meters (m)"},
+        {"length": "decimeters (dm)"},
+        {"length": "centimeters (cm)"},
+        {"length": "millimeters (mm)"},
+        {"length": "kilometers (km)"},
+        {"length": "micrometers (um)"},
+        {"length": "nanometers (nm)"},
+        {"length": "picometers (pm)"},
+        {"length": "inches (in)"},
+        {"length": "feet (ft)"},
+        {"length": "miles (mi)"},
+        {"length": "yards (yd)"},
+        {"length": "nautical miles (nm)"},
+        {"length": "light years (ly)"}
+    ],
+    "2": [
+        {"area": "square meters (m²)"},
+        {"area": "square kilometers (km²)"},
+        {"area": "square feet (ft²)"},
+        {"area": "square inches (in²)"},
+        {"area": "square miles (mi²)"},
+        {"area": "acres"},
+        {"area": "hectares (ha)"},
+        {"area": "are"}
+    ],
+    "3": [
+        {"volume": "liters (L)"},
+        {"volume": "cubic meters (m³)"},
+        {"volume": "cubic centimeters (cm³)"},
+        {"volume": "milliliters (mL)"},
+        {"volume": "gallons (gal)"},
+        {"volume": "fluid ounces (fl oz)"},
+        {"volume": "pints (pt)"},
+        {"volume": "quarts (qt)"},
+        {"volume": "teaspoons (tsp)"}
+    ],
+    "4": [
+        {"weight": "kilograms (kg)"},
+        {"weight": "grams (g)"},
+        {"weight": "milligrams (mg)"},
+        {"weight": "pounds (lb)"},
+        {"weight": "ounces (oz)"},
+        {"weight": "stones (st)"},
+        {"weight": "tons (t)"},
+        {"weight": "metric tons (tonne)"}
+    ],
+    "5": [
+        {"temperature": "Celsius (°C)"},
+        {"temperature": "Fahrenheit (°F)"},
+        {"temperature": "Kelvin (K)"},
+        {"temperature": "Rankine (°R)"},
+        {"temperature": "Reaumur (°Re)"}
+    ],
+    "6": [
+        {"pressure": "pascal (Pa)"},
+        {"pressure": "kilopascal (kPa)"},
+        {"pressure": "megapascal (MPa)"},
+        {"pressure": "bar"},
+        {"pressure": "atmosphere (atm)"},
+        {"pressure": "pounds per square inch (psi)"},
+        {"pressure": "torr"},
+        {"pressure": "millimeters of mercury (mmHg)"},
+        {"pressure": "inches of mercury (inHg)"}
+    ],
+    "7": [
+        {"time": "seconds (s)"},
+        {"time": "minutes (min)"},
+        {"time": "hours (h)"},
+        {"time": "days"},
+        {"time": "weeks"},
+        {"time": "months"},
+        {"time": "years"},
+        {"time": "decades"},
+        {"time": "centuries"}
+    ],
+    "8": [
+        {"power": "watts (W)"},
+        {"power": "kilowatts (kW)"},
+        {"power": "megawatts (MW)"},
+        {"power": "gigawatts (GW)"},
+        {"power": "horsepower (hp)"}
+    ],
+    "9": [
+        {"speed": "meters per second (m/s)"},
+        {"speed": "kilometers per hour (km/h)"},
+        {"speed": "miles per hour (mph)"},
+        {"speed": "knots (kn)"},
+        {"speed": "feet per second (ft/s)"},
+        {"speed": "Mach number"}
+    ],
+    "10": [
+        {"data": "bytes (B)"},
+        {"data": "kilobytes (KB)"},
+        {"data": "megabytes (MB)"},
+        {"data": "gigabytes (GB)"},
+        {"data": "terabytes (TB)"},
+        {"data": "petabytes (PB)"},
+        {"data": "exabytes (EB)"},
+        {"data": "zettabytes (ZB)"},
+        {"data": "yottabytes (YB)"},
+        {"data": "kilobits (Kb)"},
+        {"data": "megabits (Mb)"}
+    ],
+    "11": [
+        {"frequency": "hertz (Hz)"},
+        {"frequency": "kilohertz (kHz)"},
+        {"frequency": "megahertz (MHz)"},
+        {"frequency": "gigahertz (GHz)"},
+        {"frequency": "terahertz (THz)"}
+    ],
+    "12": [
+        {"density": "kilograms per cubic meter (kg/m³)"},
+        {"density": "grams per cubic centimeter (g/cm³)"},
+        {"density": "grams per milliliter (g/mL)"},
+        {"density": "pounds per cubic foot (lb/ft³)"}
+    ],
+    "13": [
+        {"energy": "joules (J)"},
+        {"energy": "kilojoules (kJ)"},
+        {"energy": "calories (cal)"},
+        {"energy": "kilocalories (kcal)"},
+        {"energy": "electronvolts (eV)"},
+        {"energy": "watt-hours (Wh)"},
+        {"energy": "kilowatt-hours (kWh)"},
+        {"energy": "British thermal units (BTU)"}
+    ],
+    "14": [
+        {"angle": "degrees (°)"},
+        {"angle": "radians (rad)"},
+        {"angle": "gradians (gon)"},
+        {"angle": "minutes (arcmin)"},
+        {"angle": "seconds (arcsec)"}
+    ],
+    "15": [
+        {"light": "lux (lx)"},
+        {"light": "lumens (lm)"},
+        {"light": "candelas (cd)"},
+        {"light": "foot-candles (fc)"},
+        {"light": "nits"}
+    ],
+    "16": [
+        {"sound": "decibels (dB)"},
+        {"sound": "decibels SPL (dB SPL)"},
+        {"sound": "sones"},
+        {"sound": "phon"}
+    ],
+    "17": [
+        {"fuel_efficiency": "kilometers per liter (km/L)"},
+        {"fuel_efficiency": "miles per gallon (mpg)"},
+        {"fuel_efficiency": "liters per 100 kilometers (L/100km)"},
+        {"fuel_efficiency": "gallons per 100 miles (gal/100mi)"}
+    ]
+}

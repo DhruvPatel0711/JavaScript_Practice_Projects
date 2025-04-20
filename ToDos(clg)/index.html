@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="title">
+                <h1>ToDo List</h1>
+            </div>
+            <div class="inputs">
+                <input type="text" id="ToDo-name" placeholder="ToDo Name" required>
+                <select id="expense-category" required>
+                    <option value="" disabled selected>Select Category</option>
+                    <option value="Office">Office</option>
+                    <option value="SelfImporovement">SelfImporovement</option>
+                    <option value="Home">Home</option>
+                    <option value="Relative">Relative</option>
+                    <option value="Other">Other</option>
+                </select>
+                <input type="datetime-local" class="due" id="Due" placeholder="Due Date" required>
+                <button class="btn" id="btn">Add ToDo</button>
+            </div>
+            <table class="ToDo-table">
+                <thead>
+                    <tr>
+                        <th>Todo Name</th>
+                        <th>Category</th>
+                        <th>Time</th>
+                        <th>Due Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody class="ToDo-list"></tbody>
+            </table>
+            <div class="filter">
+                <label for="filter-category">Filter by Category:</label>
+                <select id="filter-category">
+                    <option value="All">All</option>
+                    <option value="Office">Office</option>
+                    <option value="SelfImporovement">SelfImporovement</option>
+                    <option value="Home">Home</option>
+                    <option value="Relative">Relative</option>
+                    <option value="Duedate">DueDate</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,198 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color:#FAFAFF;  opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2A2A2A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url("image.jpg");
+}
+h1,h2{
+    font-weight: 500;
+    color: #2A2A2A;
+    margin-right: 1rem;
+}
+h3{
+    color: #343434;
+}
+
+.container{
+    width: 600px;
+    background: rgb(0, 0, 0, 0);
+    border-radius: 8px;
+    border: 2px solid;
+    border-color: #FAFAFF;
+    padding: 0.5rem;
+    transform: scale(1.2); /* Scale content */
+    transform-origin: center;
+}
+.box1{
+    display: flex;
+}
+.title{
+    background-color:#FAFAFF;  opacity: 0.8;
+    color:#2A2A2A;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align items */
+}
+
+.date{
+    background-color:#FAFAFF;  opacity: 0.8;
+    color:#2A2A2A;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align items */
+    gap: 0.5rem;
+}
+
+.water{
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Vertically align items */
+    gap: 0.5rem;
+    background-color: #FAFAFF;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    text-align: center;
+}
+img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+}
+
+.top-priorities{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAFAFF;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+}
+
+.top-list2,.top-list3{
+    margin-top: 27px;
+}
+
+.Todos{
+    background-color: #FAFAFF;
+    border-radius: 7px;
+    padding: 0.5rem;
+    width: 200px;
+    margin: 0.5rem;
+}
+input[class = "work-text"]{
+    all:unset;
+    height: 20px;
+    width: 155px;
+    font-size: 1rem;
+}
+.notes{
+    background-color: #FAFAFF;
+    border-radius: 7px;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 400px;
+}
+
+#type-here{
+    all:unset;
+    overflow-wrap: break-word; 
+    white-space: pre-wrap;
+}
+
+.box3{
+    display: flex;
+}
+.type{
+    all:unset;
+    overflow-wrap: break-word; 
+    white-space: pre-wrap;
+}
+.time{
+    background-color: #FAFAFF;
+    border-radius: 7px;
+    padding: 0.6rem;
+    margin: 0.5rem;
+    width: 80px;
+    color: #2A2A2A;
+}
+.input-date{
+    all: unset;
+
+}/* Hide the default checkbox appearance */
+input[type="checkbox"] {
+    appearance: none; /* Remove default styles */
+    width: 15px;
+    height: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid #2A2A2A; /* Border for unchecked state */
+    background-color: #FAFAFF; /* Background color for unchecked state */
+    position: relative;
+}
+
+/* Style the checkbox when checked */
+input[type="checkbox"]:checked {
+    background-color: #2A2A2A; /* Background color for checked state */
+    border-color: #2A2A2A;
+}
+
+/* Add a checkmark using the ::after pseudo-element */
+input[type="checkbox"]:checked::after {
+    content: '✔'; /* Checkmark */
+    color: #FAFAFF; /* Checkmark color */
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+}
+
+
+input[type="date"]{
+    width: 150px;
+    text-align: center;
+}
+input[id="type-here"] {
+    display: inline-block;
+    width: 110px; /* Same width for date and text types */
+    font-family: inherit;
+    font-size: 16px;
+    text-align: left;
+    
+    border-radius: 5px;
+    box-sizing: border-box;
+
+}    
+#type-here1{
+    display: inline-block;
+    width: 360px; /* Same width for date and text types */
+    font-family: inherit;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+    .box3 {
+        flex-direction: column;
+    }
+    .notes, .Todos {
+        width: 100%;
+    }
+}

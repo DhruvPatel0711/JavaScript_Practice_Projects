@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cutive Mono", monospace;
+    font-weight: bold;
+}
+
+body {
+    height: 100vh;
+    background-color: #ccc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+button {
+    color: black;
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+.note1 {
+    color: black;
+    background-color: #ccc;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+    width: 400px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Adds space between buttons and textarea */
+}
+
+.note1 button {
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.note1 textarea {
+    width: 100%;
+    height: calc(100% - 50px); /* Adjust height to fit inside the note, subtracting space for buttons */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical;
+    all: unset;
+}
+textarea::-webkit-scrollbar {
+    width: 10px; 
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background-color: #555;
+    border-radius: 10px; 
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+textarea::-webkit-scrollbar-track {
+    background-color: #ccc; 
+    border-radius: 10px; 
+}
+
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media (max-width: 600px) {
+    .note1 {
+        width: 90%;
+    }
+    .note1 textarea {
+        width: 100%;
+    }
+}

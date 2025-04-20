@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccc;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .carousel-container {
+    text-align: center;
+    width: 300px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  
+  .underline {
+    width: 50%;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto 16px;
+  }
+  
+  .review-box {
+    background-color: #ccc;
+    color: black;
+    padding: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .review-box img {
+    border-radius: 50%;
+    margin-bottom: 8px;
+  }
+  
+  button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  .carousel-controls {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  .arrow-btn {
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .arrow-btn svg {
+    fill: white;
+  }
+  
+  .arrow-btn:hover svg {
+    fill: #ccc;
+  }
+  
+  #random-btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+  }
+  
