@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+}
+
+.svg {
+  width: 20px;
+  height: auto;
+  margin: 1rem;
+  padding: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.svg:hover {
+  background-color: black;
+  border-radius: 50%;
+}
+
+.firstRow, .secondRow, .thirdRow{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: inherit;
+}
+
+.secondRow{
+  gap: 1rem;
+}
+
+.container{
+  width: 400px;
+}
+
+.thirdRow > button{
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+.thirdRow > button:hover{
+  background-color: black;
+  color: white;
+}
